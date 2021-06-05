@@ -1,0 +1,129 @@
+page-starter {
+  .col {
+    padding: 0 !important;
+  }
+
+  .label-md {
+    margin: 13px 8px 13px 0;
+  }
+  ion-header {
+       height: 200px !important;//by default 56px
+       background-image:url('https://c.ndtvimg.com/2019-04/gbkiutf8_chicken-tikka-650_650x400_09_April_19.jpg') !important;
+
+   }
+  
+   h3 {
+     font-weight: 400;
+     text-align: right;
+     text-decoration: underline;
+     padding-right: 10px;
+   }
+   .card-md{
+     border: 1px solid black;
+     
+     
+
+   }
+   .attri{
+     border: 1px solid #8080808f;
+     font-size: 16px;
+     text-align: center;
+     padding-left: 4px;
+     border-radius: 3px;
+   }
+   .itemname{
+     margin-top: -13px;
+     font-size: 20px;
+     width: 56%;
+   }
+   .itemlabel{
+     margin-left: 20px;
+    background-color: rgb(218, 221, 26);
+     padding-left: 7%;
+     font-size: 15px;
+     margin-bottom: 22px;
+     margin-top: 22px;
+     margin-right: 0px;
+     text-align: center;
+     height: 35px;
+     padding-bottom: 38px;
+
+   }
+   .footer-md{
+     height: 51px;
+    width: 111%;
+    padding-left: 0;
+    margin-left: -6px;
+   }
+
+
+   .item-md{
+     margin-top: -14px;
+   }
+   ion-label {
+     font-size: 18px;
+   }
+
+   .item-center {
+     text-align: center !important;
+   }
+
+   .item_border {
+     border: 1px solid;
+     border-color: #dec17f;
+   }
+
+   .total-cost {
+     width: 50%;
+     height: 80px;
+     border-radius: 5px;
+     margin-left: 25%;
+     margin-top: 40px;
+   }
+
+   .button-inner {
+     font-size: 18px;
+   }
+
+   .toolbar-background {
+     background: none;
+   }
+
+   .back-button {
+     color: white !important;
+   }
+
+   .toolbar-title {
+     color: white !important;
+   }
+
+   .gold {
+     margin: 0px;
+     color: #b6c027;
+     margin-left: 27px !important;
+     font-size: 18px;
+         margin-top: -21px;
+   }
+ }
+
+
+
+
+
+.list-md[inset] {
+  margin: 0px;
+  border-radius: 2px;
+}
+
+.list-ios[inset] {
+  margin: 0px;
+  border-radius: 2px;
+}
+ion-content{
+  background-color: rgb(248, 250, 135);
+}
+.content-md {
+  background-color: #f8fa87;
+}
+
+

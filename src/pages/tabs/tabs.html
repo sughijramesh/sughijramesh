@@ -1,0 +1,22 @@
+<ion-tabs>
+  <ion-tab [root]="tab1Root" tabIcon="md-home" tabsHideOnSubPages></ion-tab>
+  <!-- <ion-tab  tabIcon="md-search"></ion-tab> -->
+  <!-- <ion-tab [root]="tab3Root" tabIcon="basket" [tabBadge]="countCartItems" tabBadgeStyle="primary"></ion-tab> -->
+</ion-tabs>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons>
+      <button  ion-button>
+        <ion-icon name="md-home" ></ion-icon>
+      </button>
+      <button  ion-button>
+      </button>
+      <button ion-button  (click)="gocart()">
+        <ion-icon name="basket"></ion-icon>
+        <ion-badge>{{countCartItems}}</ion-badge>
+
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
